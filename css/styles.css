@@ -3,33 +3,25 @@ html {
 }
 body {
     font-family: 'Montserrat', sans-serif !important;
-}
-#title {
-    /* background-color: rgba(0, 0, 255, 0.479); */
-    background-image: linear-gradient(rgb(0, 0, 255, 0.479) 60%, white);
-    color: white;
+    text-align: center;
 }
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 3% 15%;
 }
- h1 {
-    font-family: 'Montserrat-Black', sans-serif !important;
-     font-size: 3.5rem;
-     line-height: 1.5;
- }
- h2 {
+
+
+ h1, h2, h4, h5, h6 {
     font-family: 'Montserrat-Bold', sans-serif !important; 
-    font-size: 3rem;
-    line-height: 1.5;
- }
- h3{
-    font-family: 'Montserrat-Bold', sans-serif !important;
-    font-size: 1.5rem ; 
  }
  p {
      color: #8f8f8f;
  }
-
+ /* Headings */
+.big-heading {
+    font-family: 'Montserrat-Black', sans-serif !important;
+     font-size: 3.5rem;
+     line-height: 1.5;
+}
 /* Navigation Bar */
 .navbar {
     padding-bottom: 0 0 4.5rem ;
@@ -56,6 +48,17 @@ body {
 }
 
 /* title image */
+/* title */
+#title {
+    /* background-color: rgba(0, 0, 255, 0.479); */
+    background-image: linear-gradient(rgb(0, 0, 255, 0.479) 60%, white);
+    color: white;
+    text-align: left;
+}
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
 .iphone6-image{
     display: flex;
     justify-content: center !important;
@@ -72,7 +75,6 @@ body {
 }
 /* features */
 #features {
-    padding: 7% 15%;
     background-color: white;
     z-index: 5;
     position: relative;
@@ -87,10 +89,11 @@ body {
 .icon :hover {
     color:rgba(0, 0, 255, 0.479); 
 }
-
+.feature-title {
+    font-size: 1.5rem;
+}
 /* Testimonials */
 #testimonials{
-    text-align: center;
     background-color: rgba(0, 0, 255, 0.479);
     color: whitesmoke;
     z-index: 9;
@@ -101,20 +104,50 @@ body {
     margin: 20px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 /* press section */
 #press {
     background-color: rgba(0, 0, 255, 0.479);
-    text-align: center;   
     padding-bottom: 3%;
 }
 .press-logo{
     width: 15%;
     margin: 20px 20px 50px ;
 }
+
+
+/* Pricing section */
+#Pricing {
+    padding: 5% auto;
+    margin: 5% auto;
+}
+.pricing-heading {
+    margin: 2rem 5%;
+    padding: 2rem 5%;
+
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* Call to action */
+#cta {
+    background-color: rgba(0, 0, 255, 0.479);
+    color: #fff;
+
+}
+/* footer */
+.social-icon {
+    margin: 20px 15px;
+}
+
 /* Media Queries */
 @media (max-width: 1028px) {
     #title {
@@ -124,38 +157,4 @@ body {
         position: static;
         transform: rotate(0);
     }
-}
-
-/* Pricing section */
-#Pricing {
-    padding: 5% auto;
-    margin: 5% auto;
-}
-.pricing-heading {
-    text-align: center;
-    margin: 2rem 5%;
-    padding: 2rem 5%;
-
-}
-
-/* Call to action */
-#cta {
-    background-color: rgba(0, 0, 255, 0.479);
-    color: #fff;
-    text-align: center;
-
-}
-.big-heading {
-    font-family: 'Montserrat-Black', sans-serif !important;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-/* footer */
-#footer {
-    /* padding: 7% 10%; */
-    text-align: center;    
-}
-.social-icon {
-    margin: 20px 15px;
 }
