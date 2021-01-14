@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Montserrat', sans-serif !important;
 }
@@ -38,7 +41,7 @@ body {
 .nav-item {
     padding: 0 18px;
 }
-nav-link {
+.nav-link {
     font-size: 1.2rem;
     font-family: 'Montserrat-Light', sans-serif !important;
 }
@@ -48,12 +51,19 @@ nav-link {
 }
 
 /* title image */
+.iphone6-image{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+}
 .title-image{
-    width: 60%;
+    width: 50%;
     transform: rotate(25deg);
+    margin: 2rem;
 }
 .title-image:hover{
-    width: 62%;
+    width: 52%;
 }
 /* features */
 #features {
