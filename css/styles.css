@@ -125,3 +125,11 @@ body {
         transform: rotate(0);
     }
 }
+
+/* Pricing section */
+.pricing-heading {
+    text-align: center;
+    margin: 2rem 5%;
+    padding: 2rem 5%;
+
+}
