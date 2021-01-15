@@ -71,13 +71,16 @@ body {
     margin: 2rem;
 }
 .title-image:hover{
-    width: 52%;
+    transform: scale(1);
+    transform: rotate(20deg);
 }
 /* features */
 #features {
     background-color: white;
     z-index: 5;
     position: relative;
+    margin: 3rem auto 5rem;
+    padding: 3rem auto 5rem;
 }
 .feature-box {
     text-align: center;
